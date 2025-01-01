@@ -17,13 +17,14 @@ RUN poetry config virtualenvs.create false --local && poetry install --no-dev
 
 ADD . /app/
 
-COPY ./deployment/local/backend/entrypoint.sh /entrypoint.sh
-RUN sed -i 's/\r$//g' /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+# COPY ./deployment/local/backend/entrypoint.sh /entrypoint.sh
+# RUN sed -i 's/\r$//g' /entrypoint.sh
+# RUN chmod +x /entrypoint.sh
 
-COPY ./deployment/local/backend/start /start
-RUN sed -i 's/\r$//g' /start
-RUN chmod +x /start
+# COPY ./deployment/local/backend/start /start
+# RUN sed -i 's/\r$//g' /start
+# RUN chmod +x /start
 
 EXPOSE 8000
-CMD /entrypoint.sh
+CMD ["poetry", "run", "python", "crm/manage.py", "runserver", "0.0.0.0:8000"]
+# CMD /entrypoint.sh

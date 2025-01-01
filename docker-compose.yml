@@ -18,7 +18,6 @@ services:
     command: /start
     depends_on:
       - postgres-db
-      # - redis
 
   postgres-db:
     image: postgres:13

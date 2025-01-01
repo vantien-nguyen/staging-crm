@@ -1,0 +1,399 @@
+{
+    "users": [
+        {
+            "first_name": "Van Tien",
+            "last_name": "NGUYEN",
+            "email": "tien@crm.com",
+            "password": "Crm@2025",
+            "is_active": true,
+            "role": "Employee"
+        },
+        {
+            "first_name": "Renaud",
+            "last_name": "SCHMIT",
+            "email": "renaud@crm.com",
+            "password": "Crm@2025",
+            "is_active": true,
+            "role": "Partner"
+        },
+        {
+            "first_name": "Matthieu",
+            "last_name": "NGUYEN",
+            "email": "matthieu@crm.com",
+            "password": "Crm@2025",
+            "is_active": true,
+            "role": "Partner"
+        },
+        {
+            "first_name": "Victor",
+            "last_name": "NGUYEN",
+            "email": "victor@crm.com",
+            "password": "Crm@2025",
+            "is_active": true,
+            "role": "Partner"
+        }
+    ],
+    "clients": [
+        {
+            "name": "CLIENT - ALO",
+            "description": "Kristel Pereira-Godet, Responsable de contrôle de Gestion chez Haulotte - DFCG Auvergne Rhone Alpes Leader Mondial des Nacelles",
+            "siren": "332822480",
+            "code_postal": "75001",
+            "turnover": 767000000,
+            "cash": 52000000,
+            "website": "",
+            "typology": "ENTREPRISE",
+            "status": "Client",
+            "needs": [],
+            "existing_partners": []
+        },
+        {
+            "name": "SPIRIT",
+            "description": "Promoteur et Bailleur Mme Seguin est la présidente de Spirit Immobilier - j'ai discuté avec elle au SIMI",
+            "siren": "348802398",
+            "code_postal": "75002",
+            "turnover": 746000000,
+            "cash": 50000000,
+            "website": "",
+            "typology": "ENTREPRISE",
+            "status": "Prospect",
+            "needs": [],
+            "existing_partners": []
+        },
+        {
+            "name": "AMARI METAL FRANCE ",
+            "description": "Kristel Pereira-Godet, Responsable de contrôle de Gestion chez Haulotte - DFCG Auvergne Rhone Alpes Leader Mondial des Nacelles",
+            "siren": "404495566",
+            "code_postal": "75003",
+            "turnover": 0,
+            "cash": 58000000,
+            "website": "",
+            "typology": "ENTREPRISE",
+            "status": "Client",
+            "needs": [],
+            "existing_partners": []
+        },
+        {
+            "name": "HAULOTTE GROUP",
+            "description": "Kristel Pereira-Godet, Responsable de contrôle de Gestion chez Haulotte - DFCG Auvergne Rhone Alpes Leader Mondial des Nacelles",
+            "siren": "332822445",
+            "code_postal": "75001",
+            "turnover": "767000000",
+            "cash": "52000000",
+            "website": "",
+            "typology": "ENTREPRISE",
+            "status": "Client",
+            "needs": [],
+            "existing_partners": []
+        },
+        {
+            "name": "MLP",
+            "description": "Kristel Pereira-Godet, Responsable de contrôle de Gestion chez Haulotte - DFCG Auvergne Rhone Alpes Leader Mondial des Nacelles",
+            "siren": "332822499",
+            "code_postal": "75001",
+            "turnover": 767000000,
+            "cash": 52000000,
+            "website": "",
+            "typology": "ENTREPRISE",
+            "status": "Prospect",
+            "needs": [],
+            "existing_partners": []
+        }
+    ],
+    "partners": [
+        {
+            "name": "BNP Paris",
+            "description": "Kristel Pereira-Godet, Responsable de contrôle de Gestion chez Haulotte - DFCG Auvergne Rhone Alpes Leader Mondial des Nacelles",
+            "siren": "123456789",
+            "code_postal": "75001",
+            "turnover": 11767000000,
+            "cash": 152000000,
+            "website": "",
+            "typology": "BANQUE",
+            "iban": "FR123213213",
+            "bic": "DSFQ1231S"
+        },
+        {
+            "name": "ARKEA",
+            "description": "Kristel Pereira-Godet, Responsable de contrôle de Gestion chez Haulotte - DFCG Auvergne Rhone Alpes Leader Mondial des Nacelles",
+            "siren": "222456789",
+            "code_postal": "75001",
+            "turnover": 44767000000,
+            "cash": 152000000,
+            "website": "",
+            "typology": "BANQUE",
+            "iban": "FR123213213",
+            "bic": "DSFQ1231S"
+        },
+        {
+            "name": "SG",
+            "description": "Kristel Pereira-Godet, Responsable de contrôle de Gestion chez Haulotte - DFCG Auvergne Rhone Alpes Leader Mondial des Nacelles",
+            "siren": "993456789",
+            "code_postal": "75001",
+            "turnover": 21767000000,
+            "cash": 352000000,
+            "website": "",
+            "typology": "BANQUE",
+            "iban": "FR123213213",
+            "bic": "DSFQ1231S"
+        }
+    ],
+    "contacts": [
+        {
+            "first_name": "Anthony",
+            "last_name": "DOVETTA",
+            "phone_number": "0622883377",
+            "email": "anthony@gmail.com",
+            "linkedin": "anthony",
+            "job_description": "",
+            "account_siren": "332822480",
+            "file": ""
+        },
+        {
+            "first_name": "Aline",
+            "last_name": "BOUVIER",
+            "phone_number": "06859747132",
+            "email": "abouvier@sas73.fr",
+            "linkedin": "aline",
+            "job_description": "",
+            "account_siren": "332822480",
+            "file": ""
+        },
+        {
+            "first_name": "Axelle",
+            "last_name": "MILOCHEVITCH",
+            "phone_number": "06955451191",
+            "email": "a.milochevitch@teractem.fr",
+            "linkedin": "milochevitch",
+            "job_description": "Directeur administratif et financier",
+            "account_siren": "222456789",
+            "file": ""
+        },
+        {
+            "first_name": "Bernard",
+            "last_name": "DUC",
+            "phone_number": "06859747128",
+            "email": "isabelle.auge@valenceromansagglo.fr",
+            "linkedin": "isabelle.auge",
+            "job_description": "PDG",
+            "account_siren": "123456789",
+            "file": ""
+        },
+        {
+            "first_name": "Bernard",
+            "last_name": "Laferriere",
+            "phone_number": "0685974791",
+            "email": "test@bernad.com",
+            "linkedin": "Bernard",
+            "job_description": "Trésorier",
+            "account_siren": "332822499",
+            "file": ""
+        },
+        {
+            "first_name": "Muriel",
+            "last_name": "Brisset",
+            "phone_number": "0685974737",
+            "email": "muriel@gmail.com",
+            "linkedin": "brisset",
+            "job_description": "DAF",
+            "account_siren": "993456789",
+            "file": ""
+        }
+    ],
+    "interactions": [
+        {
+            "date_time": "2024-12-11",
+            "status": "Planed",
+            "type": "Call",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "tien@crm.com",
+            "contact_email": "muriel@gmail.com"
+        },
+        {
+            "date_time": "2024-12-12",
+            "status": "Done",
+            "type": "Mail",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "renaud@crm.com",
+            "contact_email": "abouvier@sas73.fr"
+        },
+        {
+            "date_time": "2024-12-13",
+            "status": "Canceled",
+            "type": "Appointment",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "renaud@crm.com",
+            "contact_email": "muriel@gmail.com"
+        },
+        {
+            "date_time": "2024-12-01",
+            "status": "Planed",
+            "type": "Appointment",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "matthieu@crm.com",
+            "contact_email": "abouvier@sas73.fr"
+        },
+        {
+            "date_time": "2024-12-10",
+            "status": "Done",
+            "type": "Visual",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "renaud@crm.com",
+            "contact_email": "muriel@gmail.com"
+        },
+        {
+            "date_time": "2024-12-11",
+            "status": "Done",
+            "type": "Appointment",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "victor@crm.com",
+            "contact_email": "muriel@gmail.com"
+        },
+        {
+            "date_time": "2024-12-12",
+            "status": "Planed",
+            "type": "Mail",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "matthieu@crm.com",
+            "contact_email": "isabelle.auge@valenceromansagglo.fr"
+        },
+        {
+            "date_time": "2024-12-09",
+            "status": "Planed",
+            "type": "Mail",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "renaud@crm.com",
+            "contact_email": "isabelle.auge@valenceromansagglo.fr"
+        },
+        {
+            "date_time": "2024-12-13",
+            "status": "Canceled",
+            "type": "Call",
+            "comment": "Il n'a pas répondu - rappeler",
+            "user_email": "tien@crm.com",
+            "contact_email": "anthony@gmail.com"
+        }
+    ],
+    "kycs": [
+        {
+            "name": "GFO Distribution",
+            "status": "Completed",
+            "notes": "",
+            "qcf": true,
+            "der": false,
+            "assignee_email": "tien@crm.com"
+        },
+        {
+            "name": "PACCMAN",
+            "status": "Pending",
+            "notes": "",
+            "qcf": true,
+            "der": false,
+            "assignee_email": "renaud@crm.com"
+        },
+        {
+            "name": "SEVE",
+            "status": "Canceled",
+            "notes": "",
+            "qcf": true,
+            "der": false,
+            "assignee_email": "matthieu@crm.com"
+        },
+        {
+            "name": "FRANCE SS",
+            "status": "Completed",
+            "notes": "",
+            "qcf": true,
+            "der": false,
+            "assignee_email": "tien@crm.com"
+        }
+    ],
+    "products": [
+        {
+            "name": "CLN - ATLANTIC PARTNERS",
+            "description": "",
+            "typology": "CLN",
+            "partner_siren": "123456789"
+        },
+        {
+            "name": "POLDI",
+            "description": "",
+            "typology": "AUTOCALL",
+            "partner_siren": "993456789"
+        }
+    ],
+    "opportunities": [
+        {
+            "nominal": 250000,
+            "margin": 2,
+            "status": "Interest",
+            "transfer_type": "Recurring",
+            "frequency": "Monthly",
+            "amount": "10000",
+            "maturity": "10000",
+            "sous_jacent": "SG Sub",
+            "coupon_payments": "Annuel",
+            "rates": 5.2,
+            "traab": 7,
+            "capital_protection": 100,
+            "coupon_protection": 100,
+            "start_date": "2024-11-12",
+            "end_date": "2025-11-12",
+            "created_date": "2024-11-12",
+            "contact_email": "anthony@gmail.com",
+            "product_name": "POLDI",
+            "user_email": "tien@crm.com"
+        },
+        {
+            "nominal": 350000,
+            "margin": 9,
+            "status": "Successful",
+            "transfer_type": "Recurring",
+            "frequency": "Monthly",
+            "amount": "9000",
+            "maturity": "9000",
+            "sous_jacent": "SG Sub",
+            "coupon_payments": "Monthly",
+            "rates": 7.2,
+            "traab": 4,
+            "capital_protection": 100,
+            "coupon_protection": 100,
+            "start_date": "2024-11-12",
+            "end_date": "2025-11-12",
+            "created_date": "2024-11-12",
+            "contact_email": "muriel@gmail.com",
+            "product_name": "CLN - ATLANTIC PARTNERS",
+            "user_email": "renaud@crm.com"
+        }
+    ],
+    "billings": [
+        {
+            "reason": "Test",
+            "amount": 9000, 
+            "billing_date": "2024-09-08",
+            "opportunity_id": 1,
+            "partner_siren": "993456789"
+        },
+        {
+            "reason": "Test 2",
+            "amount": 9000, 
+            "billing_date": "2024-10-08",
+            "opportunity_id": 1,
+            "partner_siren": "993456789"
+        },
+        {
+            "reason": "Test 3",
+            "amount": 9000, 
+            "billing_date": "2024-11-08",
+            "opportunity_id": 1,
+            "partner_siren": "993456789"
+        },
+        {
+            "reason": "Test 4",
+            "amount": 9000, 
+            "billing_date": "2024-12-08",
+            "opportunity_id": 1,
+            "partner_siren": "993456789"
+        }
+    ]
+}

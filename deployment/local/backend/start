@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+echo "Running collectstatic..."
+python crm/manage.py collectstatic --noinput
+
+echo "Runing migrate..."
+python crm/manage.py makemigrations
+python crm/manage.py migrate
+
+echo "Running runserver..."
+PYTHONUNBUFFERED=1 python crm/manage.py runserver 0.0.0.0:8000
